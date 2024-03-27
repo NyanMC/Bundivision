@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bundivision",
+  "version": "${version}",
+  "name": "Bundivision",
+  "description": "Fixes MC-269644 by forcing the weight of every item to be at least 1.",
+  "authors": [
+    "ChromaNyan"
+  ],
+  "contact": {
+    "repo": "https://github.com/NyanMC/Bundivision"
+  },
+  "license": "MIT",
+  "icon": "assets/bundivision/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "bundivision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}"
+  }
+}
